@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+.matrix-input {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-family: monospace;
+  border-radius: 8px;
+  outline: none;
+}
+
+.matrix-input:focus {
+  box-shadow: 0 0 15px #00ff00;
+}
